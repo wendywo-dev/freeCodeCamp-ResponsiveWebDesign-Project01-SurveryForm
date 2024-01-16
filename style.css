@@ -1,0 +1,106 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+html {
+  min-height: 100%;
+  font-size: 16px;
+}
+
+body {
+  color: white;
+  padding: 50px 0;
+  background-image: linear-gradient(
+      120deg,
+      rgba(170, 77, 40, 0.548),
+      rgba(65, 35, 23, 0.623)
+    ),
+    url("./images/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+header {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+form {
+  margin: 0 auto;
+  padding: 50px;
+  width: 600px;
+  background-color: rgba(70, 45, 36, 0.829);
+  border-radius: 20px;
+}
+
+.form-item {
+  margin-bottom: 20px;
+}
+
+#name,
+#email,
+#number,
+select,
+#submit {
+  width: 100%;
+  height: 30px;
+  border-radius: 2px;
+}
+
+#name,
+#email,
+#number,
+textarea,
+select {
+  padding-left: 10px;
+}
+
+input,
+button {
+  border-style: none;
+  border: 0px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+select,
+input[type="radio"],
+input[type="checkbox"],
+#submit {
+  cursor: pointer;
+}
+
+textarea {
+  width: 100%;
+  height: 100px;
+}
+
+#submit {
+  height: 50px;
+  font-size: 1.1rem;
+  background-color: rgb(41, 167, 58);
+  color: white;
+}
+
+footer {
+  text-align: center;
+  padding-top: 10px;
+  font-weight: 200;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-weight: 400;
+}
+a:hover {
+  color: rgb(73, 241, 95);
+}
